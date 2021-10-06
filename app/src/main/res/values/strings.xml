@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Meng-ngaji</string>
+    <string name="masuk">Masuk</string>
+    <string name="register">Tidak punya akun? Daftar disini</string>
+    <string name="masukButton">MASUK</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="ubah_kata_sandi">Ubah Kata Sandi</string>
+    <string name="detail_akun">Detail Akun</string>
+    <string name="logout">Keluar</string>
+    <string name="cth_email">evand@gmail.com</string>
+    <string name="nama">Evan Dvorkin Braylen</string>
+    <string name="profile">Profile</string>
+    <string name="todo">TODO</string>
+    <string name="no_hp">+62 8126133748</string>
+    <string name="nama_lengkap">NAMA LENGKAP</string>
+    <string name="email1">EMAIL</string>
+</resources>
