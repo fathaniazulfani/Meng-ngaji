@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mengngaji">
         <activity
+            android:name=".ListMajidActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CariPengajianActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BottomNavActivity"
+            android:exported="true" />
+        <activity
             android:name=".PrayerActivity"
             android:exported="true" />
         <activity
