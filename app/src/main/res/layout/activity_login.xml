@@ -63,7 +63,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="250dp"
         android:textColor="#D9DFE0"
         android:fontFamily="sans-serif"
         android:textSize="18sp"
