@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetailProfileActivity">
+    tools:context=".DetailProfileActivity"
+    tools:ignore="ContentDescription">
 
     <RelativeLayout
-        android:id="@+id/header"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -16,48 +16,47 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
+            android:id="@+id/imageViewIcon3"
             android:layout_width="25dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="12dp"
-            android:contentDescription="@string/todo"
             android:src="@mipmap/back" />
-
         <TextView
+            android:id="@+id/textViewProfil5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="37dp"
             android:layout_marginTop="12dp"
             android:fontFamily="sans-serif"
             android:text="Kembali"
-            android:textColor="#000"
+            android:textColor="@color/black"
             android:textSize="17sp" />
-
         <TextView
+            android:id="@+id/textViewProfil6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="310dp"
             android:layout_marginTop="10dp"
             android:fontFamily="sans-serif"
             android:text="Simpan"
-            android:textColor="#000"
+            android:textColor="@color/black"
             android:textSize="17sp" />
-
         <TextView
+            android:id="@+id/textViewProfil"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="135dp"
             android:layout_marginTop="55dp"
             android:fontFamily="sans-serif-black"
             android:text="Detail Akun"
-            android:textColor="#000"
+            android:textColor="@color/black"
             android:textSize="24sp" />
-
         <ImageView
+            android:id="@+id/imageViewProfil"
             android:layout_width="201dp"
             android:layout_height="118dp"
             android:layout_marginStart="100dp"
             android:layout_marginTop="110dp"
-            android:contentDescription="TODO"
             android:src="@drawable/foto_profil" />
     </RelativeLayout>
 
@@ -75,24 +74,22 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/textViewProfil4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
-                android:text="@string/nama_lengkap"
+                android:text="NAMA LENGKAP"
                 android:textColor="#324B4D"
                 android:textSize="14sp" />
-
             <EditText
-                android:id="@+id/editTextTextEmailAddress1"
+                android:id="@+id/editTextNamaLengkap"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:background="@color/white"
-                android:hint="@string/nama"
+                android:hint="Evan Dvorkin Baylen"
                 android:paddingTop="5dp"
                 android:textColorHint="@color/black"
-                android:inputType="textEmailAddress"
-                android:importantForAutofill="no" />
-
+                android:inputType="textPersonName"/>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -107,22 +104,22 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/textViewProfil7"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
-                android:text="@string/email1"
+                android:text="EMAIL"
                 android:textColor="#324B4D"
                 android:textSize="14sp" />
-
             <EditText
-                android:id="@+id/editTextTextEmailAddress2"
+                android:id="@+id/editTextEmailAddress1"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:background="@color/white"
-                android:hint="@string/cth_email"
+                android:hint="evand@gmail.com"
                 android:paddingTop="5dp"
+                android:inputType="textEmailAddress"
                 android:textColorHint="@color/black" />
-
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"
@@ -137,23 +134,22 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/textViewProfil8"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
                 android:text="NO HP"
                 android:textColor="#324B4D"
                 android:textSize="14sp" />
-
             <EditText
-                android:id="@+id/editTextTextEmailAddress"
+                android:id="@+id/editTextNoHp"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:background="@color/white"
-                android:hint="@string/no_hp"
+                android:hint="+62 8126133748"
                 android:paddingTop="5dp"
                 android:textColorHint="@color/black"
-                android:importantForAutofill="no" />
-
+                android:inputType="text"/>
             <View
                 android:layout_width="match_parent"
                 android:layout_height="1dp"

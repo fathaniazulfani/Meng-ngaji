@@ -15,39 +15,35 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="130dp"
         android:fontFamily="sans-serif-black"
-        android:text="@string/masuk"
+        android:text="Masuk"
         android:textColor="#F3F3F3"
         android:textSize="34sp" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/editTextEmailAddress"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginTop="40dp"
         android:alpha="0.4"
         android:background="@drawable/form"
-        android:hint="@string/email"
-        android:importantForAutofill="no"
+        android:hint="Email"
         android:inputType="textEmailAddress"
         android:paddingStart="30dp"
         android:paddingEnd="15dp"
-        android:textColorHint="@color/white"
-        tools:ignore="TextContrastCheck" />
+        android:textColorHint="@color/white"/>
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginTop="35dp"
         android:alpha="0.4"
         android:background="@drawable/form"
-        android:hint="@string/password"
+        android:hint="Password"
         android:inputType="textPassword"
         android:paddingStart="30dp"
         android:paddingEnd="15dp"
-        android:textColorHint="@color/white"
-        tools:ignore="TextContrastCheck"
-        android:importantForAutofill="no" />
+        android:textColorHint="@color/white"/>
 
     <Button
         android:id="@+id/buttonLogin"
@@ -56,18 +52,18 @@
         android:layout_gravity="center"
         android:layout_marginTop="45dp"
         android:background="@drawable/buttonlogin"
-        android:text="@string/masukButton"
-        android:textColor="#F3F3F3"
-        tools:ignore="TextContrastCheck" />
+        android:text="MASUK"
+        android:textColor="#F3F3F3" />
 
     <TextView
+        android:id="@+id/textViewRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="300dp"
+        android:layout_marginTop="280dp"
         android:textColor="#D9DFE0"
         android:fontFamily="sans-serif"
         android:textSize="18sp"
-        android:text="@string/register" />
+        android:text="Belum punya akun? Daftar disini" />
 
 </LinearLayout>

@@ -3,61 +3,56 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ProfileActivity">
+    tools:context=".ProfileActivity"
+    tools:ignore="ContentDescription">
 
-    <!-- Header aligned to top -->
-    <RelativeLayout
-        android:id="@+id/header"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/textViewProfil"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true" >
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_marginStart="20dp"
-            android:text="@string/profile"
-            android:fontFamily="sans-serif-black"
-            android:textColor="#000"
-            android:textSize="28sp" />
-    </RelativeLayout>
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:text="Profile"
+        android:fontFamily="sans-serif-black"
+        android:textColor="@color/black"
+        android:textSize="28sp" />
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <ImageView
+            android:id="@+id/imageViewProfil"
             android:layout_width="126dp"
             android:layout_height="79dp"
             android:layout_alignParentStart="true"
             android:layout_marginStart="20dp"
             android:layout_marginTop="83dp"
-            android:src="@drawable/foto_profil"
-            android:contentDescription="@string/todo" />
-
+            android:src="@drawable/foto_profil" />
         <TextView
+            android:id="@+id/textViewNama"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="147dp"
             android:layout_marginTop="92dp"
             android:fontFamily="sans-serif-black"
-            android:text="@string/nama"
-            android:textColor="#000"
+            android:text="Evan Dvorkin Baylen"
+            android:textColor="@color/black"
             android:textSize="22sp" />
         <TextView
+            android:id="@+id/textViewEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="147dp"
             android:layout_marginTop="124dp"
-            android:text="@string/cth_email"
+            android:text="evand@gmail.com"
             android:fontFamily="sans-serif"
-            android:textColor="#000"
+            android:textColor="@color/black"
             android:textSize="17sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="wrap_content"
             android:layout_marginTop="190dp"
             android:orientation="vertical"
             android:paddingLeft="55dp"
@@ -68,24 +63,23 @@
                 android:layout_height="60dp">
 
                 <ImageView
+                    android:id="@+id/imageViewIcon"
                     android:layout_width="40dp"
                     android:layout_height="35dp"
                     android:layout_marginTop="11dp"
                     android:layout_marginStart="2dp"
                     android:alpha="0.7"
-                    android:src="@mipmap/user"
-                    android:contentDescription="@string/todo" />
-
+                    android:src="@mipmap/user" />
                 <TextView
+                    android:id="@+id/textViewProfil1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="58dp"
                     android:fontFamily="sans-serif-medium"
                     android:paddingTop="17dp"
-                    android:text="@string/detail_akun"
-                    android:textColor="#000"
+                    android:text="Detail Akun"
+                    android:textColor="@color/black"
                     android:textSize="18sp" />
-
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -98,22 +92,21 @@
                 android:layout_height="60dp">
 
                 <ImageView
+                    android:id="@+id/imageViewIcon1"
                     android:layout_width="42dp"
                     android:layout_height="match_parent"
                     android:alpha="0.7"
-                    android:src="@mipmap/key"
-                    android:contentDescription="@string/todo" />
-
+                    android:src="@mipmap/key"/>
                 <TextView
+                    android:id="@+id/textViewProfil2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="58dp"
                     android:fontFamily="sans-serif-medium"
                     android:paddingTop="17dp"
-                    android:text="@string/ubah_kata_sandi"
-                    android:textColor="#000"
+                    android:text="Ubah Kata Sandi"
+                    android:textColor="@color/black"
                     android:textSize="18sp" />
-
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -126,24 +119,23 @@
                 android:layout_height="60dp">
 
                 <ImageView
+                    android:id="@+id/imageViewIcon2"
                     android:layout_width="37dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
                     android:layout_marginStart="5dp"
                     android:alpha="0.7"
-                    android:src="@mipmap/logout"
-                    android:contentDescription="@string/todo" />
-
+                    android:src="@mipmap/logout" />
                 <TextView
+                    android:id="@+id/textViewProfil3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="58dp"
                     android:fontFamily="sans-serif-medium"
                     android:paddingTop="17dp"
-                    android:text="@string/logout"
-                    android:textColor="#000"
+                    android:text="Keluar"
+                    android:textColor="@color/black"
                     android:textSize="18sp" />
-
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
@@ -154,7 +146,5 @@
         </LinearLayout>
 
     </RelativeLayout>
-
-
 
 </RelativeLayout>
