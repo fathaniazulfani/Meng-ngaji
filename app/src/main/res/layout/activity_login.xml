@@ -53,17 +53,18 @@
         android:id="@+id/buttonLogin"
         android:layout_width="200dp"
         android:layout_height="50dp"
+        android:layout_gravity="center"
         android:layout_marginTop="45dp"
         android:background="@drawable/buttonlogin"
         android:text="@string/masukButton"
-        android:layout_gravity="center"
-        android:textColor="#F3F3F3" />
+        android:textColor="#F3F3F3"
+        tools:ignore="TextContrastCheck" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginTop="250dp"
+        android:layout_marginTop="300dp"
         android:textColor="#D9DFE0"
         android:fontFamily="sans-serif"
         android:textSize="18sp"
